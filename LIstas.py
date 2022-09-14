@@ -1,4 +1,4 @@
-# LA FUNCION len()
+    # LA FUNCION len()
     # toma el nombre de la lista como un argumento y devuelve el número de elementos almacenados actualmente
 
 Numeros = [10, 5, 7, 2, 1]
@@ -49,12 +49,12 @@ numbers = [111, 7, 2, 1]
 print(len(numbers))
 print(numbers)
 
-numbers.append(4)           # El Metodo "append(valor)" inserta un dato al final de la lista.
+numbers.append(4)           # El Metodo "append(valor)" inserta un valor  al final de la lista.
 
 print(len(numbers))
 print(numbers)
 
-numbers.insert(0, 222)      # El Metodo "insert(posicion,valor)" inserta una dato en la posicion escodiga
+numbers.insert(0, 222)      # El Metodo "insert(posicion,valor)" inserta una valor en la posicion escodiga
 print(len(numbers))
 print(numbers)
 
