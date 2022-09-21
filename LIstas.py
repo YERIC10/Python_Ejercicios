@@ -1,4 +1,4 @@
-    # LA FUNCION len()
+# LA FUNCIÓN len()
     # toma el nombre de la lista como un argumento y devuelve el número de elementos almacenados actualmente
 
 Numeros = [10, 5, 7, 2, 1]
@@ -15,11 +15,22 @@ print("\nLongitud de la lista:", len(Numeros))              # Imprimiendo la lon
 # =============================================================================================================================
 
 # LA SENTENCIA del
-    # Es una Instruccion de eliminar un valor dentro de la lista
+    # Es una Instrucción de eliminar un valor dentro de la lista
 
 del Numeros[1]  # Eliminando el segundo elemento de la lista.
 print("Longitud de la nueva lista:", len(Numeros))  # Imprimiendo nueva longitud de la lista.
 print("\nNuevo contenido de la lista:", Numeros)  # Imprimiendo el contenido de la lista actual.
+
+# =============================================================================================================================
+
+# LA FUNCIÓN clear()
+    # Es una Instrucción de eliminar todos los valores de la lista
+
+lista = [8,32,1,23,45,6,7]
+
+print("Longitud de la nueva lista:", len(lista))  # Imprimiendo nueva longitud de la lista.
+print("Mi lista: ", lista)
+print("\nLista Borrada:", lista.clear())     # Imprimiendo la lista vacía.
 
 # =============================================================================================================================
 
@@ -32,7 +43,7 @@ print("\nNuevo contenido de la lista:", Numeros)  # Imprimiendo el contenido de 
 hat_list = [1, 2, 3, 4, 5]  # Esta es una lista existente de números ocultos en el sombrero.
 
 
-dato = int(input("Ingrese un numero a reemplzar: "))
+dato = int(input("Ingrese un numero a remplazar: "))
 
 hat_list[2] = dato
 
@@ -43,18 +54,18 @@ print("La longitud de la lista es: ", len(hat_list))
 
 # =============================================================================================================================
 
-# METODO append() e insert( , )
+# MÉTODO append() e insert( , )
 
 numbers = [111, 7, 2, 1]
 print(len(numbers))
 print(numbers)
 
-numbers.append(4)           # El Metodo "append(valor)" inserta un valor  al final de la lista.
+numbers.append(4)           # El Método "append(valor)" inserta un dato al final de la lista.
 
 print(len(numbers))
 print(numbers)
 
-numbers.insert(0, 222)      # El Metodo "insert(posicion,valor)" inserta una valor en la posicion escodiga
+numbers.insert(0, 222)      # El Método "insert(posición,valor)" inserta una dato en la posición escogida
 print(len(numbers))
 print(numbers)
 
