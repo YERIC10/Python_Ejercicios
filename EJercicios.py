@@ -13,6 +13,7 @@ for i in range(3):
 
 print(x, " . ", y)
 
+# =============================================================================================================================
 
 # Escribir un programa que permita al usuario obtener un identificador para cada uno de los socios de un club.
 # Para eso ingresará nombre completo y número de DNI de cada socio, indicando que finalizará el procesamiento
@@ -46,5 +47,6 @@ print("DNI: " + dni)
 print("ID: " + id)
 
 
+# =============================================================================================================================
 
 

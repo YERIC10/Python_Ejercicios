@@ -34,6 +34,27 @@ print("\nLista Borrada:", lista.clear())     # Imprimiendo la lista vacía.
 
 # =============================================================================================================================
 
+# MÉTODO append() e insert( , )
+
+numbers = [111, 7, 2, 1]
+print(len(numbers))
+print(numbers)
+
+numbers.append(4)           # El Método "append(valor)" inserta un dato al final de la lista.
+
+print(len(numbers))
+print(numbers)
+
+numbers.insert(0, 222)      # El Método "insert(posición,valor)" inserta una dato en la posición escogida
+print(len(numbers))
+print(numbers)
+
+numbers.insert(1, 333)
+print(len(numbers))
+print(numbers)
+
+# =============================================================================================================================
+
 # EJMEPLO N°1
     # Paso 1: escribe una línea de código que solicite al usuario
     # reemplazar el número de en medio con un número entero ingresado por el usuario.
@@ -54,22 +75,41 @@ print("La longitud de la lista es: ", len(hat_list))
 
 # =============================================================================================================================
 
-# MÉTODO append() e insert( , )
+# EJMEPLO N°2
+#   Crear tu propia Lista emulando Do While. Hallar la suma de todos los valores de tu lista
 
-numbers = [111, 7, 2, 1]
-print(len(numbers))
-print(numbers)
+lista = []
+total = 0
 
-numbers.append(4)           # El Método "append(valor)" inserta un dato al final de la lista.
+while True:
+    valor = int(input("Ingrese valores para tu lista, presiona 0 para terminar: "))
+    if valor != 0:
+        lista.append(valor)
+        total += lista
+    else:
+        break
 
-print(len(numbers))
-print(numbers)
+for i in range(len(lista)):
+    total += lista[i]
 
-numbers.insert(0, 222)      # El Método "insert(posición,valor)" inserta una dato en la posición escogida
-print(len(numbers))
-print(numbers)
+print("\n")
+print("La Longitud  de tu Lista: ", len(lista))
+print("Mi Lista: ", lista)
+print("La suma de todos los valores de tu Lista: ", total)
 
-numbers.insert(1, 333)
-print(len(numbers))
-print(numbers)
+# =============================================================================================================================
 
+# EJMEPLO N°3
+#     Crea 2 listas y cambia de valores entre ellos sin auxiliares
+
+lista_1 = [1,3,5,7,9]
+lista_2 = [2,4,6,8,10]
+
+lista_1[1], lista_1[2], lista_1[3], lista_1[4], lista_2[0], lista_2[1], lista_2[2], lista_2[3] = \
+    lista_2[0], lista_1[1], lista_2[1], lista_1[2], lista_2[2], lista_1[3], lista_2[3], lista_1[4]
+
+lista_tot = lista_1 + lista_2
+
+print(lista_1)
+print(lista_2)
+print(lista_tot)
