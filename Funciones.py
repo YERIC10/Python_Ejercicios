@@ -13,9 +13,9 @@
                         # puede contener varios argumentes o no tenerlos
                         # puede esperar cualquier tipo de dato, ya sea, cadenas, números, objetos, valores lógicos, etc.
 
-        print("¡HOLA MUNDO!, SOY YERIC")
-        print()
-        print("SUMA",2+3+6+7+8)
+print("¡HOLA MUNDO!, SOY YERIC")
+print()
+print("SUMA",2+3+6+7+8)
 
 
 
