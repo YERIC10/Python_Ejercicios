@@ -6,6 +6,7 @@
     # Palabras Claves = end=" "
     # Palabras Claves = sep=" "
 
+#__________________________________________________________________________________________________________________________________
 
 # end=" " = esta palabra clave que atrae a los argumentos de una linea superior a su linea. Es decir 2 oraciones en diferentes lineas
                 # pueden ser mostradas en una sola linea.
@@ -29,6 +30,9 @@ print("YERIC")
 print("\n\t3.", 'end="LUIS"')
 print("\n\tHOLA, SOY YERIC", end=" LUIS")
 print(" FLORES LAPA")
+
+
+#__________________________________________________________________________________________________________________________________
 
 
 # sep=" " = esta es una palabra clave que reemplaza los espacios entre argumentos por cadenas.
