@@ -45,7 +45,7 @@ print("\n\t5","+","6","=","10", sep="")     # Dentro de las comillas del 'sep=""
                                             # espacion vacios brindados por las comas o como tambien eliminar los espacios sin
                                             # ingresar ninguna cada al 'sep=""'
 
-    #EJEMPLO 2
+    # EJEMPLO 2
 print("\n\t2.", 'sep="+"')
 print("\n\t5", "15", sep=" + ", end=" = ")
 print("20")
