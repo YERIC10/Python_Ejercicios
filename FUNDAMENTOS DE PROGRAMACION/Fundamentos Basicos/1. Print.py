@@ -42,8 +42,8 @@ Variable4 = " SABE PROGRAMAR"
 print ("\n3. CONCATENA '+' VARIABLES DE TIPO 'CADENA'")
 print (Variable3 + Variable4)   # Los argumentos (Variable3 y Variable4) se concatena  en la funcion print por medio de: '+'.
 
-        # OJO = Cuando deseamos utilizar '+' en 'cadenas', concatena las variables y es mostrado en consola.
-        # Asimismo, cuando deseamos usar '+' en variables 'Numericas' esto funcionara como una operacion aritmetica.
+        # OJO = Cuando deseamos utilizar '+' en 'cadenas', concatena ambos argumentos de formato string y es mostrado en consola.
+        # Asimismo, cuando deseamos usar '+' en variables 'Numericas' esto funcionara como una operacion aritmetico.
 
 
 #__________________________________________________________________________________________________________________________________
