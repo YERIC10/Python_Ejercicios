@@ -44,7 +44,7 @@ print("\nDESPLAZAMIENTO A LA DERECHA")
 print("---------------------------\n")
 
 numero = 15                                     # 15 = 1111
-resultado = numero >> 3                         # >> 3 : CANTIDAD DE BITS QUE SE DESPLAZARAN HACIA LA DERECHA
+    resultado = numero >> 3                         # >> 3 : CANTIDAD DE BITS QUE SE DESPLAZARAN HACIA LA DERECHA
 print("numero >> 3 = ", resultado)              # 1111 << 3: SE DESPLAZA 3 BITS HACIA LA DERECHA = 0001 = 1
 print(bin(numero), ">> 3 = ", bin(resultado))   # CALCULO: 15 / 2^(3) donde 3 es la cantidad de bits de desplazamiento
 

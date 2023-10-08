@@ -1,5 +1,5 @@
 
-# DIVISION DE 2 EXOPRECION ARITMETICA
+# DIVISION DE 3 EXPRECION ARITMETICA
 
 x = float(input("Ingresa el valor para x: "))
 cont = 0

@@ -1,9 +1,11 @@
 # Crea un bucle for que cuente de 0 a 10, e imprima números impares en la pantalla.
 # Usa el esqueleto de abajo:
+import time
 
 for i in range(0, 11):
     if (i % 2 != 0):
        print (i)
+       time.sleep(1)    # un tiempo de respuesta  
 
 # Crea un bucle while que cuente de 0 a 10, e imprima números impares en la pantalla.
 # Usa el esqueleto de abajo:

@@ -8,8 +8,8 @@
 
 #__________________________________________________________________________________________________________________________________
 
-# end=" " = esta palabra clave que atrae a los argumentos de una linea superior a su linea. Es decir 2 oraciones en diferentes lineas
-                # pueden ser mostradas en una sola linea.
+# end=" " = esta palabra clave que atrae a los argumentos de una linea superior a su linea invocada.
+            # Es decir 2 oraciones en diferentes lineas pueden ser mostradas en una sola linea.
 
 print("\nPALABRA CLAVE =>", 'end=""')
 
@@ -35,13 +35,13 @@ print(" FLORES LAPA")
 #__________________________________________________________________________________________________________________________________
 
 
-# sep=" " = esta es una palabra clave que reemplaza los espacios entre argumentos por cadenas.
+# sep=" " = (SEPARADOR) esta es una palabra clave que reemplaza los espacios entre argumentos por un caracter definido dentro del "".
 
 print("\nPALABRA CLAVE =>", 'sep=""')
 
     # EJEMPLO 1
 print("\n\t1.", 'sep=""')
-print("\n\t5","+","6","=","10", sep="")     # Dentro de las comillas del 'sep=""' puedes ingresar cadenas que reemplacen a los
+print("\n\t5","+","6","=","10", sep="")     # Dentro de las comillas del 'sep=""' puedes ingresar caracteres que reemplacen a los
                                             # espacion vacios brindados por las comas o como tambien eliminar los espacios sin
                                             # ingresar ninguna cada al 'sep=""'
 

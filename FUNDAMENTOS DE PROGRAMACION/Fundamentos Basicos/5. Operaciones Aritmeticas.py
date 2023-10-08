@@ -11,6 +11,8 @@
     # La prioridad mas 'ALTA' es: 4 y la prioridad mas 'BAJA' es: 1, es decir que actuan de acuerdo a la prioridad mas alta en una
     # operacion.
 
+    # Se evalua de Derecha a Izquierda
+
 print("\n\tOPERACIONES ARITMETICAS")
 print("\n\t SUMA")
 print("7 + 14 = ", 7+14)

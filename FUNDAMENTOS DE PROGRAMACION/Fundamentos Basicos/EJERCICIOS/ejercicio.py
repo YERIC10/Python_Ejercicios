@@ -1,9 +1,3 @@
 
-x = int(input())
-y = int(input())
-
-x = x % y
-x = x % y
-y = y % x
-
+y = 1 // 2 *3
 print(y)
