@@ -8,7 +8,8 @@ print(list_2, list_1)   # Es decir que almacena la ubicacion de memoria de list_
                         # list_2 = 2
 
 
-# Si deseas copiar el contenido de la Lista, tendrias que hacer [:]
+# Si deseas copiar el contenido de la Lista y no la ubicacion donde esta almacenado, tendrias que hacer [start:end]
+# por defecto copia todos los valores, pero si deseas copiar algunos valores, te brinda un rango inicial y finale - 1
 
 # Rebanadas Poderosas
 
