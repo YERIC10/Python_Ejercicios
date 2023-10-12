@@ -1,5 +1,5 @@
-# LA FUNCIÓN len()
-    # toma el nombre de la lista como un argumento y devuelve el número de elementos almacenados actualmente
+# LA FUNCION len()
+    # toma el nombre de la lista como un argumento y devuelve la cantidad de elementos almacenados en la lista
 
 Numeros = [10, 5, 7, 2, 1]
 print("Contenido de la lista original:", Numeros)           # Imprimiendo el contenido de la lista original.
