@@ -1,6 +1,6 @@
 # FUNCIONES DEFINIDAS
 
-def raiz_cubica(raiz):  # def = Define la creación de Funciones
+def raiz_cubica(raiz):  # def = Define la creación de 3. Funciones
     result = raiz ** 1 / 3
     return print(result)
 
