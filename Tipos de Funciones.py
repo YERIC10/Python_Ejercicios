@@ -1,5 +1,6 @@
 # FUNCIONES DEFINIDAS
 
+# EJEMPLO 1
 def raiz_cubica(raiz):  # def = Define la creación de 3. Funciones
     result = raiz ** 1 / 3
     return print(result)
@@ -8,9 +9,7 @@ def raiz_cubica(raiz):  # def = Define la creación de 3. Funciones
 raiz_cubica(5)
 
 
-# _____________________________________________________________________________________
-
-#  *args
+# EJEMPLO 2
 
 def suma_varios(*args):  # *args = puede almacenar una lista de parámetros
     result = 0
@@ -38,6 +37,7 @@ funci_recursiva(3)
 
 # FUNCIONES LAMBDA
 # Son funciones más resumida realizadas en una sola línea de código
+
 result = lambda a, b, c: (a ** b) + c  # La función Lambda ocupa menos espacio de memoria
 print(result(1, 2, 4))  # a,b,c: = son los parámetros de la función Lambda
 # : (a**b) + c = es la operación que se vá realizar dentro de la función
