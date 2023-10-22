@@ -1,3 +1,16 @@
+# Son listas que cuentan con dos posiciones [vertical][horizontal]
+
+
+table = [[":(", ":)", ":(", ":)"],
+         [":)", ":(", ":)", ":)"],
+         [":(", ":)", ":)", ":("],
+         [":)", ":)", ":)", ":("]]
+
+print(table)
+print(table[0][0])  # outputs: ':('
+print(table[0][3])  # outputs: ':)'
+
+
 # Listas dentro de listas
 
 # Ejemplo 1
