@@ -1,41 +1,44 @@
 # FUNCIONES DEFINIDAS
-
+print ("\n\t FUNCION DEFINIDA")
 # EJEMPLO 1
 def raiz_cubica(raiz):  # def = Define la creación de 3. Funciones
     result = raiz ** 1 / 3
     return print(result)
 
-
 raiz_cubica(5)
 
-
-# EJEMPLO 2
-
-def suma_varios(*args):  # *args = puede almacenar una lista de parámetros
-    result = 0
-    for i in args:
-        result += i
-    return print(result)
-
-
-suma_varios(3, 5, 6, 7, 8, 9, 10)
 
 # _____________________________________________________________________________________
 
 # FUNCIONES RECURSIVAS
+print ("\n\t FUNCION RECURSIVA")
+# Son funciones que se llaman asi misma dentro de su cuerpo
 
-def funci_recursiva(num):  # Son funciones que se llaman asi misma dentro de ella
-
-
+# EJEMPLO 1
+def funci_recursiva(num):
     if num > 0:
         print(num)
         funci_recursiva(num - 1)
 
 funci_recursiva(3)
 
+
+# EJEMPLO 2
+# Implementación recursiva de la función factorial.
+def factorial(n):
+    if n == 1:    # El caso base (condición de terminación).
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+
+print(factorial(4)) # 4 * 3 * 2 * 1 = 24
+
+
 # _____________________________________________________________________________________
 
 # FUNCIONES LAMBDA
+print ("\n\t FUNCION LAMBDA")
 # Son funciones más resumida realizadas en una sola línea de código
 
 result = lambda a, b, c: (a ** b) + c  # La función Lambda ocupa menos espacio de memoria
