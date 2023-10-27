@@ -1,3 +1,12 @@
+# QUE ES UNA LISTA
+
+# Las listas en Python son un poderoso tipo de datos que te permiten crear colecciones de datos mutables.
+# Es una propiedad de cualquier tipo de dato en Python que describe su disponibilidad para poder cambiar libremente
+# durante la ejecución de un programa
+
+# Una Lista es una secuencia de datos MUTABLES
+
+
 # LA FUNCION len()
     # toma el nombre de la lista como un argumento y devuelve la cantidad de elementos almacenados en la lista
 
