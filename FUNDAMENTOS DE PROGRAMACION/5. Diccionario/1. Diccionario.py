@@ -24,4 +24,18 @@ print(phone_numbers)
 print(empty_dictionary)
 
 
-# OBSERVACIONES: Las cadenas los podrias implemtar con: (" " o ' '), no afecta el resultado
+# OBSERVACIONES: Las cadenas los podrias implemtar con: (" " o ' '), no afecta el resultado o la busqueda
+
+
+# EJEMPLO 1
+dictionary = {
+              "gato": "chat",
+              "perro": "chien",
+              "caballo": "cheval"
+              }
+
+# EJEMPLO 2
+phone_numbers = {'jefe': 5551234567,
+                 'Suzy': 22657854310
+                 }
+

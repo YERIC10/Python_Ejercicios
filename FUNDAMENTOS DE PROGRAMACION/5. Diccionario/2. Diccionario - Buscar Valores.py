@@ -7,3 +7,5 @@ diccionario_vacio = {}
 
 print(diccionario['gato'])
 print(numero_telefonico["luis"])
+
+
