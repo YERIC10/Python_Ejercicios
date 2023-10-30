@@ -1,4 +1,4 @@
-# Las posiciones de las Tuplas son como las Listas empienzan desde 0 - (n-1)
+# Las posiciones de las 0. Tuplas son como las Listas empienzan desde 0 - (n-1)
 
 my_tuple = (1, 10, 100, 1000)
 

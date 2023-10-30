@@ -1,4 +1,4 @@
-# EJEMPLO 1 - Unir Tuplas
+# EJEMPLO 1 - Unir  Tuplas
 
 mi_tupla = (1,2,3,4)
 mi_tupla_2 = (5,6,7,8)

@@ -1,4 +1,4 @@
-# Las Tuplas cambian de valores, almacenados
+# Las 0. Tuplas cambian de valores, almacenados
 
 var = 123
 

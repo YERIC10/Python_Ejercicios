@@ -41,3 +41,12 @@ dictionary_2 = {"gato" : "chat", "perro" : "chien", "caballo" : "cheval"}
 
 dictionary_2.popitem()
 print(dictionary_2)
+
+
+# El metodo clear(), permite elimar todos los elementos del diccionario
+# EJEMPLO 3
+
+dictionary_3 = {"gato" : "chat", "perro" : "chien", "caballo" : "cheval"}
+
+dictionary_2.clear()
+print(dictionary_3)

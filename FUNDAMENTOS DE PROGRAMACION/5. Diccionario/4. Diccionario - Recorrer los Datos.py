@@ -5,7 +5,7 @@ diccionario = {
                 "caballo" : "cheval"
                 }
 
-# El Metodo keys(), permite retornar todas las claves del Diccionario
+# El Metodo keys(), permite recorrer a traves de las claves dentro del Diccionario
 
 # EJEMPLO 1
 
@@ -13,7 +13,7 @@ for key in diccionario.keys():      # Metodo Keys()
     print(key, "->", diccionario[key])
 
 
-# El Metodo items(), permite retornar cada clave con su valor
+# El Metodo items(), permite recorrer a traves de las claves dentro del Diccionario
 
 # EJEMPLO 2
 
