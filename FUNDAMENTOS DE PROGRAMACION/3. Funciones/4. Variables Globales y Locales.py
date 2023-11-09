@@ -18,7 +18,7 @@ print (vari)
 
 # EJEMPLO 3 - VARIABLES GLOBAL, DEFINIDA EN LA FUNCION
 def funcion_global():
-    global var2                     # var2, es la misma variable que esta definida como 'global'
+    global var2                     # var2, es la misma variable que esta definida fuera de la funcion y si o si es lleva como 'global'
     var2 = 2
     return f"El valor es: {var2}"
 
