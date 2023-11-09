@@ -1,4 +1,5 @@
 # Crear tu propia Lista emulando Do While. Hallar la suma de todos los valores de tu lista
+
 lista = []
 total = 0
 

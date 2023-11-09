@@ -39,11 +39,11 @@ def palabraXpalbra(palabra):
 
 while True:
     try:
-        nombre = str(input("Ingrese su Primer Nombre: ")).title()
+        nombre = str(input("Ingrese su Nombre, Precio 'Enter' para salir: ")).title()
         if nombre == '':
             print("Gracias por Ingresar. Vuelva Pronto")
             break
-        apellido = input("Ingrese su Primer Apellido: ").title()
+        apellido = input("Ingrese sus Primer Apellidos: ").title()
 
         while True:
             dni = str(input("Ingrese su DNI: "))
@@ -57,9 +57,10 @@ while True:
         primer_apellido, segundo_apellido = palabraXpalbra(apellido)
 
         id = primer_nombre + str(len(primer_apellido)) + ''.join(dni[0:3])
+        print(f"\n\t--DATOS--")
         print(f"Nombre: {primer_nombre} {(segundo_nombre)} {primer_apellido}")
         print(f"DNI: {''.join(dni)}")
-        print(f"ID: {id}")
+        print(f"ID: {id}\n")
 
     except ValueError:
         print("No ingrese numero a su nombre")
